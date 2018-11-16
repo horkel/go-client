@@ -1,5 +1,5 @@
 ## horkel/go
-FROM horkel/client:1.0.0
+FROM horkel/client:2018.11.16
 MAINTAINER AlphaTr <alphatr@alphatr.com>
 
 COPY build.sh /build.sh
