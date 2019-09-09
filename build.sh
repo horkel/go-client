@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pacman -Syy --noconfirm
-pacman -S go --noconfirm
+pacman -S go gcc git --noconfirm
 
 ln -s /docker/config/go/config.sh ~/.config/go.sh
 echo '. ~/.config/go.sh' >> ~/.bash_profile
